@@ -15,10 +15,10 @@ from selenium.webdriver.chrome.options import Options
 # ============================================================
 
 # নিজের / অনুমোদিত source URL
-SOURCE_URL = "https://YOUR-OWN-SITE.example"
+SOURCE_URL = "https://4khdhub.one/"
 
 # TMDB API key এখানে বসাতে পারো
-TMDB_API_KEY = "YOUR_TMDB_API_KEY"
+TMDB_API_KEY = "439c478a771f35c05022f9feabcca01c"
 
 TMDB_URL = "https://api.themoviedb.org/3"
 

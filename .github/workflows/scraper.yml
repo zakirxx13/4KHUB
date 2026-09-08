@@ -24,6 +24,17 @@ jobs:
           python-version: "3.12"
           cache: "pip"
 
+      - name: Verify files
+        run: |
+          echo "Current directory:"
+          pwd
+
+          echo "Repository files:"
+          ls -la
+
+          echo "Scraper directory:"
+          ls -la scraper
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -35,8 +46,16 @@ jobs:
         run: |
           python scraper/scraper.py
 
-      - name: Upload scraper output
+      - name: Show output
+        if: success()
+        run: |
+          echo "Generated streams.json:"
+          cat streams.json
+
+      - name: Upload output
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: scraper-output
           path: streams.json
+          if-no-files-found: warn

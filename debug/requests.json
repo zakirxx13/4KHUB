@@ -1,0 +1,831 @@
+[
+  {
+    "timestamp": "2026-09-12T15:47:09.498Z",
+    "type": "fetch",
+    "category": "error-reporting",
+    "method": "POST",
+    "url": "https://o4511211351048192.ingest.us.sentry.io/api/4511211354783744/envelope/?sentry_version=7&sentry_key=b158ba672c4816c059e853ae245a877d&sentry_client=sentry.javascript.nextjs%2F10.48.0",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "text/plain;charset=UTF-8",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": "{\"sent_at\":\"2026-09-12T15:47:09.439Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.48.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"52118edf523c4659afaa15958951d804\",\"init\":true,\"started\":\"2026-09-12T15:47:09.439Z\",\"timestamp\":\"2026-09-12T15:47:09.439Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"v5.1.0-hotfix.1\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\"}}"
+  },
+  {
+    "timestamp": "2026-09-12T15:47:09.546Z",
+    "type": "fetch",
+    "category": "error-reporting",
+    "method": "POST",
+    "url": "https://o4511211351048192.ingest.us.sentry.io/api/4511211354783744/envelope/?sentry_version=7&sentry_key=b158ba672c4816c059e853ae245a877d&sentry_client=sentry.javascript.nextjs%2F10.48.0",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "text/plain;charset=UTF-8",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": "{\"sent_at\":\"2026-09-12T15:47:09.516Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.48.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"52118edf523c4659afaa15958951d804\",\"init\":false,\"started\":\"2026-09-12T15:47:09.439Z\",\"timestamp\":\"2026-09-12T15:47:09.516Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"v5.1.0-hotfix.1\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\"}}"
+  },
+  {
+    "timestamp": "2026-09-12T15:47:09.547Z",
+    "type": "fetch",
+    "category": "error-reporting",
+    "method": "POST",
+    "url": "https://o4511211351048192.ingest.us.sentry.io/api/4511211354783744/envelope/?sentry_version=7&sentry_key=b158ba672c4816c059e853ae245a877d&sentry_client=sentry.javascript.nextjs%2F10.48.0",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "text/plain;charset=UTF-8",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": "{\"sent_at\":\"2026-09-12T15:47:09.518Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.48.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"9f379c941672491aa176b1e525fe3ce0\",\"init\":true,\"started\":\"2026-09-12T15:47:09.516Z\",\"timestamp\":\"2026-09-12T15:47:09.516Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"v5.1.0-hotfix.1\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\"}}"
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.610Z",
+    "type": "fetch",
+    "category": "content",
+    "method": "GET",
+    "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/55fdb2bedaca2de399b470fb0ce14117",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.610Z",
+    "type": "fetch",
+    "category": "content",
+    "method": "GET",
+    "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/911e8f640af3a8892b628714d4acc133",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.610Z",
+    "type": "fetch",
+    "category": "content",
+    "method": "GET",
+    "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/be7d42854f019db42fbc22153674b888",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.610Z",
+    "type": "fetch",
+    "category": "content",
+    "method": "GET",
+    "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/cceb01a3ecb01516539b0adad38c1400",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.611Z",
+    "type": "fetch",
+    "category": "content",
+    "method": "GET",
+    "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/08d90cecf964eb9a5f6be2e1887066fd",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.611Z",
+    "type": "fetch",
+    "category": "content",
+    "method": "GET",
+    "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/cb7ea308e7742680ea8df1aae153bc9b",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.611Z",
+    "type": "fetch",
+    "category": "content",
+    "method": "GET",
+    "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/9988b22058e87ba742a8d734e640e759",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.611Z",
+    "type": "fetch",
+    "category": "content",
+    "method": "GET",
+    "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/84a2451df95d2eb3d2b0d09c5fc34fb1",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.611Z",
+    "type": "fetch",
+    "category": "content",
+    "method": "GET",
+    "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/36eff4e5ed817e63c4a0859a0e11f1d5",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.611Z",
+    "type": "fetch",
+    "category": "authentication",
+    "method": "POST",
+    "url": "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCv82eHAx0LaNvcJqOwumExKJen0_CzT1M",
+    "headers": {
+      "x-firebase-client": "eyJ2ZXJzaW9uIjoyLCJoZWFydGJlYXRzIjpbeyJhZ2VudCI6ImZpcmUtY29yZS8wLjE0LjQgZmlyZS1jb3JlLWVzbTIwMjAvMC4xNC40IGZpcmUtanMvIGZpcmUtaWlkLzAuNi4xOSBmaXJlLWlpZC1lc20yMDIwLzAuNi4xOSBmaXJlLWFuYWx5dGljcy8wLjEwLjE5IGZpcmUtYW5hbHl0aWNzLWVzbTIwMjAvMC4xMC4xOSBmaXJlLWpzLWFsbC1hcHAvMTIuNC4wIGZpcmUtYXV0aC8xLjExLjAgZmlyZS1hdXRoLWVzbTIwMjAvMS4xMS4wIGZpcmUtZnN0LzQuOS4yIGZpcmUtZnN0LWVzbTIwMjAvNC45LjIiLCJkYXRlcyI6WyIyMDI2LTA5LTEyIl19XX0",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-firebase-gmpid": "1:531986530681:web:32347312feca0d5dc62fa8",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "x-client-version": "Chrome/JsCore/12.4.0/FirebaseCore-web",
+      "content-type": "application/json"
+    },
+    "body": "{\"returnSecureToken\":true}"
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.630Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en?_rsc=Lyst6QA1NcPcFUAu",
+    "headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-ac8ba669a7b65c50-0",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.630Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/live?_rsc=Lyst6QA1NcPcFUAu",
+    "headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-a939cb0a4c4274a7-0",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.630Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/sports?_rsc=Lyst6QA1NcPcFUAu",
+    "headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-9d168056f5ab10d4-0",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.630Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/drama?_rsc=Lyst6QA1NcPcFUAu",
+    "headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-8e250365a70c39d2-0",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.633Z",
+    "type": "fetch",
+    "category": "playback",
+    "method": "POST",
+    "url": "https://entitlement-prod.services.toffeelive.com/toffee/BD/DK/web/playback/wHLVIJ4B7a1HdMSjaGLJ",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "authorization": "[REDACTED]",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": "{}"
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.639Z",
+    "type": "fetch",
+    "category": "firebase",
+    "method": "GET",
+    "url": "https://firebase.googleapis.com/v1alpha/projects/-/apps/1:531986530681:web:32347312feca0d5dc62fa8/webConfig",
+    "headers": {
+      "x-goog-api-key": "AIzaSyCv82eHAx0LaNvcJqOwumExKJen0_CzT1M",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "accept": "application/json",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.643Z",
+    "type": "fetch",
+    "category": "firebase",
+    "method": "POST",
+    "url": "https://firebaseinstallations.googleapis.com/v1/projects/prj-tof-analytics/installations",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-goog-api-key": "AIzaSyCv82eHAx0LaNvcJqOwumExKJen0_CzT1M",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "body": "{\"fid\":\"cJVs9TQubTw3olewmcAqYQ\",\"authVersion\":\"FIS_v2\",\"appId\":\"1:531986530681:web:32347312feca0d5dc62fa8\",\"sdkVersion\":\"w:0.6.19\"}"
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.877Z",
+    "type": "fetch",
+    "category": "other",
+    "method": "POST",
+    "url": "https://www.google.com/measurement/conversion?random=1789228030855&cv=11&tid=G-02M4D9SN5F&fst=1789228030855&fmt=8&en=session_start&gtm=45je6992v9189838959za200zb9193602521zd9193602521xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153&u_w=1280&u_h=720&url=https%3A%2F%2Ftoffeelive.com%2Fen%2Fwatch%2FwHLVIJ4B7a1HdMSjaGLJ&gacid=851952221.1789228031&frm=0&tiba=NTV&gtm_ee=1&npa=0&pscdl=noapi&auid=1265303601.1789228031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uamb=0&uam=&uap=Linux&uapv=&uaw=0&rcb=9",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.877Z",
+    "type": "fetch",
+    "category": "firebase",
+    "method": "POST",
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-02M4D9SN5F&gtm=45je6992v9189838959za200zb9193602521zd9193602521&_p=1789228028044&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=330310176&_eu=AAAAAGAC&_fid=cJVs9TQubTw3olewmcAqYQ&_prs=ok&cid=851952221.1789228031&ec_mode=a&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789228030&sct=1&seg=0&dl=https%3A%2F%2Ftoffeelive.com%2Fen%2Fwatch%2FwHLVIJ4B7a1HdMSjaGLJ&dt=NTV&en=page_view&_fv=1&_nsi=1&_ss=2&_ee=1&ep.origin=firebase&tfd=4387",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.955Z",
+    "type": "fetch",
+    "category": "other",
+    "method": "GET",
+    "url": "https://www.google.com/measurement/1p-conversion/?random=1041928923&cv=11&tid=G-02M4D9SN5F&fst=1789228030855&fmt=8&en=session_start&gtm=45je6992v9189838959za200zb9193602521zd9193602521xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153&u_w=1280&u_h=720&url=https%3A%2F%2Ftoffeelive.com%2Fen%2Fwatch%2FwHLVIJ4B7a1HdMSjaGLJ&gacid=851952221.1789228031&frm=0&tiba=NTV&gtm_ee=1&npa=0&pscdl=noapi&auid=1265303601.1789228031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uamb=0&uam=&uap=Linux&uapv=&uaw=0&rcb=9&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgji6rECCOjusQIIkuuxAgjJ47ECCJfUsQIIyduxAgjN5rECCLHhsQIIs-GxAgim3bECCLDesQIIgNuxAgjN4bEC&cerd=CgiCsL4tueu-LQ&fsk=ChAI8PCT1QYQoPz-tt-KlKonEiwAN2jFb3rS9EOXsBW4VRRmKf_I5awTOp4QO9GCSPiAYMyDuiXJLBSzhzJcnBoCRGM&pscrd=IhMIuaXQ6bHplgMV3msIBB3jzCCsOhdodHRwczovL3RvZmZlZWxpdmUuY29tL0JWQ2hBSThQQ1QxUVlRLXYtNXl2ejQzdU4tRWl3QVpFc04wVDl5WGo5RWpXRXZOMFRTdnFmT3h4ekJPVUoyVFVmaDFQRFNlZnFyTkEzS01tZjNZZkVFeGd6DAgJYggIABAAGAAgAA",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "referer": "https://toffeelive.com/"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.969Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/plans?_rsc=Lyst6QA1NcPcFUAu",
+    "headers": {
+      "rsc": "1",
+      "next-router-segment-prefetch": "/_tree",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-prefetch": "1",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-9b439b8a286c04c3-0",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.971Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/sports?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-b84ea5e77d27de5c-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.985Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/live?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-b5556cae3aac8627-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:10.992Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-aca410d953c21b0e-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:11.013Z",
+    "type": "fetch",
+    "category": "authentication",
+    "method": "POST",
+    "url": "https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=AIzaSyCv82eHAx0LaNvcJqOwumExKJen0_CzT1M",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-firebase-gmpid": "1:531986530681:web:32347312feca0d5dc62fa8",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "x-client-version": "Chrome/JsCore/12.4.0/FirebaseCore-web",
+      "content-type": "application/json"
+    },
+    "body": "{\"idToken\":\"eyJhbGciOiJSUzI1NiIsImtpZCI6IjY2MmQ3YTBkNGVlZmQzNDMyNjFjYWRkZmZhZWM2MjNkYzZjYTlmZjAiLCJ0eXAiOiJKV1QifQ.eyJwcm92aWRlcl9pZCI6ImFub255bW91cyIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9wcmotdG9mLWFuYWx5dGljcyIsImF1ZCI6InByai10b2YtYW5hbHl0aWNzIiwiYXV0aF90aW1lIjoxNzg5MjI4MDMwLCJ1c2VyX2lkIjoiZG9hZlM4QUc2WVJqVnVFTW5KU1hOMzNiVWpVMiIsInN1YiI6ImRvYWZTOEFHNllSalZ1RU1uSlNYTjMzYlVqVTIiLCJpYXQiOjE3ODkyMjgwMzAsImV4cCI6MTc4OTIzMTYzMCwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6e30sInNpZ25faW5fcHJvdmlkZXIiOiJhbm9ueW1vdXMifX0.BkfwzD0k5yoRbN2zIA1FKXJCC0PgrzH63XoCL8IGFMEyYpbwADK5Xd_2By-riG329yeiBqPZ8Hf89iECHeiinGxbZPUD-o9NiLszEVkQX4tsDIaQWUutiHdi-EcEeFN3pkSqQOOvkmReEwvWFDjtFdZs1GiiP9QW7npCJbek0nKzT6s6OUHn42acsdzer8OHQJzOj08tbaAAsy-4xJ-kvXkW9jJ0dq5w1jWvnRAGDbzQPxBYs-XMBQy81eDyjNz9bvoGMYDhhaBKrkzdaolj1sCjXq8ij1zjaUm9TscD9cTQkA1ztKRwOH8TFGtd-Y183JKYFidzy17Gi-vsX6VnOg\"}"
+  },
+  {
+    "timestamp": "2026-09-12T15:47:11.124Z",
+    "type": "fetch",
+    "category": "stream",
+    "method": "GET",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/n_tv/playlist.m3u8?nocache=1789228031121",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:11.275Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/watch/JS1AqZgBNnOkwJLWlwg-?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-9400ef7ffe62ea49-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:11.363Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/watch/Mi1QqZgBNnOkwJLWxggo?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-b2efab330bc98917-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:11.603Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/watch/Pi1TqZgBNnOkwJLWVggf?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-a3dfc8bd62368f36-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:11.671Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/watch/OyEz-ZgBEef-9-uVnhcx?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-ae9b93576e2af4ed-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:11.685Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/watch/6CHi_5gBEef-9-uV-Bx_?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-9125c6fc4e45644e-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:11.891Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/watch/6y_b4poBNnOkwJLWmn7X?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-b697b45806953e6b-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:11.943Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/watch/V__o054BObUt2AG6LL5C?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-b4f7f5d1eecc27f2-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:12.064Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/drama?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-91a8ee8b0c468a40-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:12.102Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/movies?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-9c2392d1b833b0a4-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:12.103Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/web-series?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-a8923469703695c7-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:12.234Z",
+    "type": "fetch",
+    "category": "stream",
+    "method": "GET",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/n_tv/playlist.m3u8?nocache=1789228031121",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:12.393Z",
+    "type": "fetch",
+    "category": "nextjs",
+    "method": "GET",
+    "url": "https://toffeelive.com/en/plans?_rsc=TTJ1s5dTfNFF6o-3",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%7D%2Cnull%2C%22metadata-only%22%5D",
+      "baggage": "sentry-environment=production,sentry-release=v5.1.0-hotfix.1,sentry-public_key=b158ba672c4816c059e853ae245a877d,sentry-trace_id=1a245f5c0c35cf3dbbe7155bb70a6401,sentry-org_id=4511211351048192,sentry-sampled=false,sentry-sample_rand=0.12605383091505007,sentry-sample_rate=0.05",
+      "sentry-trace": "1a245f5c0c35cf3dbbe7155bb70a6401-a4d3ab2e5b7f1926-0",
+      "next-router-prefetch": "1",
+      "next-url": "/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:13.359Z",
+    "type": "fetch",
+    "category": "stream",
+    "method": "GET",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/n_tv/playlist.m3u8?nocache=1789228031121",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:14.500Z",
+    "type": "xhr",
+    "category": "analytics",
+    "method": "POST",
+    "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=1&_=1789228034497",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": "data=%5B%7B%22event%22%3A%22page_viewed%22%2C%22properties%22%3A%7B%22%24os%22%3A%22Linux%22%2C%22%24browser%22%3A%22Chrome%22%2C%22%24current_url%22%3A%22https%3A%2F%2Ftoffeelive.com%2Fen%2Fwatch%2FwHLVIJ4B7a1HdMSjaGLJ%22%2C%22%24browser_version%22%3A153%2C%22%24screen_height%22%3A720%2C%22%24screen_width%22%3A1280%2C%22mp_lib%22%3A%22web%22%2C%22%24lib_version%22%3A%222.71.0%22%2C%22%24insert_id%22%3A%22542wd1k7wrbtkq16%22%2C%22time%22%3A1789228030.585%2C%22distinct_id%22%3A%22%24device%3Acea130ac-bf43-4d43-81cb-e820144fca8e%22%2C%22%24device_id%22%3A%22cea130ac-bf43-4d43-81cb-e820144fca8e%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22provider_id%22%3A%22toffee%22%2C%22app_name%22%3A%22toffee-web-app%22%2C%22app_version%22%3A%225.1.0%22%2C%22device_id%22%3A%22f46d93f7-d234-4d21-823d-01027877985b%22%2C%22subscriber_type%22%3A%22ANONYMOUS%22%2C%22connection%22%3A%22cellular%22%2C%22page_name%22%3A%22Watch%20Details%22%2C%22page_title%22%3A%22NTV%22%2C%22page_path%22%3A%22%2Fwatch%2FwHLVIJ4B7a1HdMSjaGLJ%22%2C%22page_url%22%3A%22https%3A%2F%2Ftoffeelive.com%2Fwatch%2FwHLVIJ4B7a1HdMSjaGLJ%22%2C%22language%22%3A%22en%22%2C%22page_id%22%3A%22wHLVIJ4B7a1HdMSjaGLJ%22%2C%22token%22%3A%226019860d585d6c9cc82edba9d456e36c%22%2C%22mp_sent_by_lib_version%22%3A%222.71.0%22%7D%7D%5D"
+  },
+  {
+    "timestamp": "2026-09-12T15:47:15.877Z",
+    "type": "fetch",
+    "category": "firebase",
+    "method": "POST",
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-02M4D9SN5F&gtm=45je6992v9189838959za200zb9193602521zd9193602521&_p=1789228028044&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=330310176&_eu=AAAAAGQC&_fid=cJVs9TQubTw3olewmcAqYQ&cid=851952221.1789228031&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en&gaf=2&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153&dt=NTV&dp=%2Fwatch%2FwHLVIJ4B7a1HdMSjaGLJ&sid=1789228030&sct=1&seg=0&dl=https%3A%2F%2Ftoffeelive.com%2Fen%2Fwatch%2FwHLVIJ4B7a1HdMSjaGLJ&en=page_viewed&_ee=1&ep.origin=firebase&ep.provider_id=toffee&ep.app_name=toffee-web-app&ep.app_version=5.1.0&ep.device_id=f46d93f7-d234-4d21-823d-01027877985b&ep.subscriber_type=ANONYMOUS&ep.connection=cellular&ep.page_name=Watch%20Details&ep.page_url=https%3A%2F%2Ftoffeelive.com%2Fwatch%2FwHLVIJ4B7a1HdMSjaGLJ&ep.page_id=wHLVIJ4B7a1HdMSjaGLJ&_et=3&tfd=9391",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  },
+  {
+    "timestamp": "2026-09-12T15:47:16.037Z",
+    "type": "fetch",
+    "category": "error-reporting",
+    "method": "POST",
+    "url": "https://o4511211351048192.ingest.us.sentry.io/api/4511211354783744/envelope/?sentry_version=7&sentry_key=b158ba672c4816c059e853ae245a877d&sentry_client=sentry.javascript.nextjs%2F10.48.0",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "content-type": "text/plain;charset=UTF-8",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": "{\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.48.0\"}}\n{\"type\":\"trace_metric\",\"item_count\":10,\"content_type\":\"application/vnd.sentry.items.trace-metric+json\"}\n{\"items\":[{\"timestamp\":1789228031.0348,\"trace_id\":\"1a245f5c0c35cf3dbbe7155bb70a6401\",\"name\":\"api_latency\",\"type\":\"distribution\",\"unit\":\"millisecond\",\"value\":428.5,\"attributes\":{\"endpoint\":{\"value\":\"https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/911e8f640af3a8892b628714d4acc133\",\"type\":\"string\"},\"method\":{\"value\":\"GET\",\"type\":\"string\"},\"status\":{\"value\":200,\"type\":\"integer\"},\"sentry.release\":{\"value\":\"v5.1.0-hotfix.1\",\"type\":\"string\"},\"sentry.environment\":{\"value\":\"production\",\"type\":\"string\"},\"sentry.sdk.name\":{\"value\":\"sentry.javascript.nextjs\",\"type\":\"string\"},\"sentry.sdk.version\":{\"value\":\"10.48.0\",\"type\":\"string\"},\"sentry.replay_id\":{\"value\":\"1a37f8e5256b4ba2b74c9c64787b40f5\",\"type\":\"string\"},\"sentry._internal.replay_is_buffering\":{\"value\":true,\"type\":\"boolean\"},\"sentry.timestamp.sequence\":{\"value\":0,\"type\":\"integer\"}}},{\"timestamp\":1789228031.0358,\"trace_id\":\"1a245f5c0c35cf3dbbe7155bb70a6401\",\"name\":\"api_latency\",\"type\":\"distribution\",\"unit\":\"millisecond\",\"value\":429.3999999999942,\"attributes\":{\"endpoint\":{\"value\":\"https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/cceb01a3ecb01516539b0adad38c1400\",\"type\":\"string\"},\"method\":{\"value\":\"GET\",\"type\":\"string\"},\"status\":{\"value\":200,\"type\":\"integer\"},\"sentry.release\":{\"value\":\"v5.1.0-hotfix.1\",\"type\":\"string\"},\"sentry.environment\":{\"value\":\"production\",\"type\":\"string\"},\"sentry.sdk.name\":{\"value\":\"sentry.javascript.nextjs\",\"type\":\"string\"},\"sentry.sdk.version\":{\"value\":\"10.48.0\",\"type\":\"string\"},\"sentry.replay_id\":{\"value\":\"1a37f8e5256b4ba2b74c9c64787b40f5\",\"type\":\"string\"},\"sentry._internal.replay_is_buffering\":{\"value\":true,\"type\":\"boolean\"},\"sentry.timestamp.sequence\":{\"value\":0,\"type\":\"integer\"}}},{\"timestamp\":1789228031.0363,\"trace_id\":\"1a245f5c0c35cf3dbbe7155bb70a6401\",\"name\":\"api_latency\",\"type\":\"distribution\",\"unit\":\"millisecond\",\"value\":430,\"attributes\":{\"endpoint\":{\"value\":\"https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/08d90cecf964eb9a5f6be2e1887066fd\",\"type\":\"string\"},\"method\":{\"value\":\"GET\",\"type\":\"string\"},\"status\":{\"value\":200,\"type\":\"integer\"},\"sentry.release\":{\"value\":\"v5.1.0-hotfix.1\",\"type\":\"string\"},\"sentry.environment\":{\"value\":\"production\",\"type\":\"string\"},\"sentry.sdk.name\":{\"value\":\"sentry.javascript.nextjs\",\"type\":\"string\"},\"sentry.sdk.version\":{\"value\":\"10.48.0\",\"type\":\"string\"},\"sentry.replay_id\":{\"value\":\"1a37f8e5256b4ba2b74c9c64787b40f5\",\"type\":\"string\"},\"sentry._internal.replay_is_buffering\":{\"value\":true,\"type\":\"boolean\"},\"sentry.timestamp.sequence\":{\"value\":0,\"type\":\"integer\"}}},{\"timestamp\":1789228031.0373,\"trace_id\":\"1a245f5c0c35cf3dbbe7155bb70a6401\",\"name\":\"api_latency\",\"type\":\"distribution\",\"unit\":\"millisecond\",\"value\":432.5,\"attributes\":{\"endpoint\":{\"value\":\"https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/55fdb2bedaca2de399b470fb0ce14117\",\"type\":\"string\"},\"method\":{\"value\":\"GET\",\"type\":\"string\"},\"status\":{\"value\":200,\"type\":\"integer\"},\"sentry.release\":{\"value\":\"v5.1.0-hotfix.1\",\"type\":\"string\"},\"sentry.environment\":{\"value\":\"production\",\"type\":\"string\"},\"sentry.sdk.name\":{\"value\":\"sentry.javascript.nextjs\",\"type\":\"string\"},\"sentry.sdk.version\":{\"value\":\"10.48.0\",\"type\":\"string\"},\"sentry.replay_id\":{\"value\":\"1a37f8e5256b4ba2b74c9c64787b40f5\",\"type\":\"string\"},\"sentry._internal.replay_is_buffering\":{\"value\":true,\"type\":\"boolean\"},\"sentry.timestamp.sequence\":{\"value\":0,\"type\":\"integer\"}}},{\"timestamp\":1789228031.0486999,\"trace_id\":\"1a245f5c0c35cf3dbbe7155bb70a6401\",\"name\":\"api_latency\",\"type\":\"distribution\",\"unit\":\"millisecond\",\"value\":442.0999999999767,\"attributes\":{\"endpoint\":{\"value\":\"https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/84a2451df95d2eb3d2b0d09c5fc34fb1\",\"type\":\"string\"},\"method\":{\"value\":\"GET\",\"type\":\"string\"},\"status\":{\"value\":200,\"type\":\"integer\"},\"sentry.release\":{\"value\":\"v5.1.0-hotfix.1\",\"type\":\"string\"},\"sentry.environment\":{\"value\":\"production\",\"type\":\"string\"},\"sentry.sdk.name\":{\"value\":\"sentry.javascript.nextjs\",\"type\":\"string\"},\"sentry.sdk.version\":{\"value\":\"10.48.0\",\"type\":\"string\"},\"sentry.replay_id\":{\"value\":\"1a37f8e5256b4ba2b74c9c64787b40f5\",\"type\":\"string\"},\"sentry._internal.replay_is_buffering\":{\"value\":true,\"type\":\"boolean\"},\"sentry.timestamp.sequence\":{\"value\":0,\"type\":\"integer\"}}},{\"timestamp\":1789228031.0492,\"trace_id\":\"1a245f5c0c35cf3dbbe7155bb70a6401\",\"name\":\"api_latency\",\"type\":\"distribution\",\"unit\":\"millisecond\",\"value\":442.69999999998254,\"attributes\":{\"endpoint\":{\"value\":\"https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/9988b22058e87ba742a8d734e640e759\",\"type\":\"string\"},\"method\":{\"value\":\"GET\",\"type\":\"string\"},\"status\":{\"value\":200,\"type\":\"integer\"},\"sentry.release\":{\"value\":\"v5.1.0-hotfix.1\",\"type\":\"string\"},\"sentry.environment\":{\"value\":\"production\",\"type\":\"string\"},\"sentry.sdk.name\":{\"value\":\"sentry.javascript.nextjs\",\"type\":\"string\"},\"sentry.sdk.version\":{\"value\":\"10.48.0\",\"type\":\"string\"},\"sentry.replay_id\":{\"value\":\"1a37f8e5256b4ba2b74c9c64787b40f5\",\"type\":\"string\"},\"sentry._internal.replay_is_buffering\":{\"value\":true,\"type\":\"boolean\"},\"sentry.timestamp.sequence\":{\"value\":0,\"type\":\"integer\"}}},{\"timestamp\":1789228031.0500998,\"trace_id\":\"1a245f5c0c35cf3dbbe7155bb70a6401\",\"name\":\"api_latency\",\"type\":\"distribution\",\"unit\":\"millisecond\",\"value\":444,\"attributes\":{\"endpoint\":{\"value\":\"https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/be7d42854f019db42fbc22153674b888\",\"type\":\"string\"},\"method\":{\"value\":\"GET\",\"type\":\"string\"},\"status\":{\"value\":200,\"type\":\"integer\"},\"sentry.release\":{\"value\":\"v5.1.0-hotfix.1\",\"type\":\"string\"},\"sentry.environment\":{\"value\":\"production\",\"type\":\"string\"},\"sentry.sdk.name\":{\"value\":\"sentry.javascript.nextjs\",\"type\":\"string\"},\"sentry.sdk.version\":{\"value\":\"10.48.0\",\"type\":\"string\"},\"sentry.replay_id\":{\"value\":\"1a37f8e5256b4ba2b74c9c64787b40f5\",\"type\":\"string\"},\"sentry._internal.replay_is_buffering\":{\"value\":true,\"type\":\"boolean\"},\"sentry.timestamp.sequence\":{\"value\":0,\"type\":\"integer\"}}},{\"timestamp\":1789228031.0504,\"trace_id\":\"1a245f5c0c35cf3dbbe7155bb70a6401\",\"name\":\"api_latency\",\"type\":\"distribution\",\"unit\":\"millisecond\",\"value\":417.8999999999942,\"attributes\":{\"endpoint\":{\"value\":\"https://entitlement-prod.services.toffeelive.com/toffee/BD/DK/web/playback/wHLVIJ4B7a1HdMSjaGLJ\",\"type\":\"string\"},\"method\":{\"value\":\"POST\",\"type\":\"string\"},\"status\":{\"value\":200,\"type\":\"integer\"},\"sentry.release\":{\"value\":\"v5.1.0-hotfix.1\",\"type\":\"string\"},\"sentry.environment\":{\"value\":\"production\",\"type\":\"string\"},\"sentry.sdk.name\":{\"value\":\"sentry.javascript.nextjs\",\"type\":\"string\"},\"sentry.sdk.version\":{\"value\":\"10.48.0\",\"type\":\"string\"},\"sentry.replay_id\":{\"value\":\"1a37f8e5256b4ba2b74c9c64787b40f5\",\"type\":\"string\"},\"sentry._internal.replay_is_buffering\":{\"value\":true,\"type\":\"boolean\"},\"sentry.timestamp.sequence\":{\"value\":1,\"type\":\"integer\"}}},{\"timestamp\":1789228031.0507,\"trace_id\":\"1a245f5c0c35cf3dbbe7155bb70a6401\",\"name\":\"api_latency\",\"type\":\"distribution\",\"unit\":\"millisecond\",\"value\":443.8999999999942,\"attributes\":{\"endpoint\":{\"value\":\"https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/36eff4e5ed817e63c4a0859a0e11f1d5\",\"type\":\"string\"},\"method\":{\"value\":\"GET\",\"type\":\"string\"},\"status\":{\"value\":200,\"type\":\"integer\"},\"sentry.release\":{\"value\":\"v5.1.0-hotfix.1\",\"type\":\"string\"},\"sentry.environment\":{\"value\":\"production\",\"type\":\"string\"},\"sentry.sdk.name\":{\"value\":\"sentry.javascript.nextjs\",\"type\":\"string\"},\"sentry.sdk.version\":{\"value\":\"10.48.0\",\"type\":\"string\"},\"sentry.replay_id\":{\"value\":\"1a37f8e5256b4ba2b74c9c64787b40f5\",\"type\":\"string\"},\"sentry._internal.replay_is_buffering\":{\"value\":true,\"type\":\"boolean\"},\"sentry.timestamp.sequence\":{\"value\":2,\"type\":\"integer\"}}},{\"timestamp\":1789228031.113,\"trace_id\":\"1a245f5c0c35cf3dbbe7155bb70a6401\",\"name\":\"api_latency\",\"type\":\"distribution\",\"unit\":\"millisecond\",\"value\":506.3999999999942,\"attributes\":{\"endpoint\":{\"value\":\"https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/cb7ea308e7742680ea8df1aae153bc9b\",\"type\":\"string\"},\"method\":{\"value\":\"GET\",\"type\":\"string\"},\"status\":{\"value\":200,\"type\":\"integer\"},\"sentry.release\":{\"value\":\"v5.1.0-hotfix.1\",\"type\":\"string\"},\"sentry.environment\":{\"value\":\"production\",\"type\":\"string\"},\"sentry.sdk.name\":{\"value\":\"sentry.javascript.nextjs\",\"type\":\"string\"},\"sentry.sdk.version\":{\"value\":\"10.48.0\",\"type\":\"string\"},\"sentry.replay_id\":{\"value\":\"1a37f8e5256b4ba2b74c9c64787b40f5\",\"type\":\"string\"},\"sentry._internal.replay_is_buffering\":{\"value\":true,\"type\":\"boolean\"},\"sentry.timestamp.sequence\":{\"value\":0,\"type\":\"integer\"}}}]}"
+  },
+  {
+    "timestamp": "2026-09-12T15:47:18.286Z",
+    "type": "fetch",
+    "category": "stream",
+    "method": "GET",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/n_tv/playlist.m3u8?nocache=1789228031121",
+    "headers": {
+      "sec-ch-ua-platform": "\"Linux\"",
+      "referer": "https://toffeelive.com/",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+      "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+  }
+]

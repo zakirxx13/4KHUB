@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2026-09-12T15:47:11.243Z",
+    "method": "GET",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/n_tv/playlist.m3u8?nocache=1789228031121",
+    "failure": "net::ERR_NAME_NOT_RESOLVED"
+  },
+  {
+    "timestamp": "2026-09-12T15:47:12.303Z",
+    "method": "GET",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/n_tv/playlist.m3u8?nocache=1789228031121",
+    "failure": "net::ERR_NAME_NOT_RESOLVED"
+  },
+  {
+    "timestamp": "2026-09-12T15:47:13.473Z",
+    "method": "GET",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/n_tv/playlist.m3u8?nocache=1789228031121",
+    "failure": "net::ERR_NAME_NOT_RESOLVED"
+  },
+  {
+    "timestamp": "2026-09-12T15:47:18.329Z",
+    "method": "GET",
+    "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/n_tv/playlist.m3u8?nocache=1789228031121",
+    "failure": "net::ERR_NAME_NOT_RESOLVED"
+  }
+]

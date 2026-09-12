@@ -1,0 +1,71 @@
+{
+  "target": "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ",
+  "capturedAt": "2026-09-12T15:47:23.054Z",
+  "totals": {
+    "requests": 46,
+    "responses": 42,
+    "failures": 4
+  },
+  "categories": {
+    "playback": 1,
+    "stream": 0,
+    "content": 9,
+    "authentication": 2
+  },
+  "playbackEndpoints": [
+    {
+      "method": "POST",
+      "url": "https://entitlement-prod.services.toffeelive.com/toffee/BD/DK/web/playback/wHLVIJ4B7a1HdMSjaGLJ",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    }
+  ],
+  "streamEndpoints": [],
+  "contentEndpoints": [
+    {
+      "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/cceb01a3ecb01516539b0adad38c1400",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/08d90cecf964eb9a5f6be2e1887066fd",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/55fdb2bedaca2de399b470fb0ce14117",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/911e8f640af3a8892b628714d4acc133",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/84a2451df95d2eb3d2b0d09c5fc34fb1",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/9988b22058e87ba742a8d734e640e759",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/be7d42854f019db42fbc22153674b888",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/36eff4e5ed817e63c4a0859a0e11f1d5",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://content-prod.services.toffeelive.com/toffee/BD/DK/web/rail/generic/editorial-dynamic/cb7ea308e7742680ea8df1aae153bc9b",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8"
+    }
+  ]
+}

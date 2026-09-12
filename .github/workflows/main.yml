@@ -1,0 +1,399 @@
+name: Capture API Flow Safely
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Playwright
+        run: |
+          npm init -y
+          npm install playwright
+          npx playwright install --with-deps chromium
+
+      - name: Create capture script
+        run: |
+          cat > capture.js <<'EOF'
+          const { chromium } = require("playwright");
+          const fs = require("fs");
+
+          const TARGET =
+            "https://toffeelive.com/en/watch/wHLVIJ4B7a1HdMSjaGLJ";
+
+          const OUT = "debug";
+          fs.mkdirSync(OUT, { recursive: true });
+
+          const SECRET_HEADERS = new Set([
+            "authorization",
+            "cookie",
+            "set-cookie",
+            "proxy-authorization",
+            "x-api-key",
+            "x-auth-token"
+          ]);
+
+          function sanitizeHeaders(headers) {
+            const result = {};
+
+            for (const [key, value] of Object.entries(headers)) {
+              result[key] =
+                SECRET_HEADERS.has(key.toLowerCase())
+                  ? "[REDACTED]"
+                  : value;
+            }
+
+            return result;
+          }
+
+          function safeBody(body) {
+            if (!body) return null;
+
+            // Don't store possible credentials/tokens.
+            const text = String(body);
+
+            if (
+              /authorization|access_token|refresh_token|password|secret|cookie/i
+                .test(text)
+            ) {
+              return "[BODY REDACTED: POSSIBLE CREDENTIAL]";
+            }
+
+            return text.slice(0, 20000);
+          }
+
+          function classify(url) {
+            const u = url.toLowerCase();
+
+            if (u.includes("playback")) return "playback";
+            if (u.includes("playlist.m3u8")) return "stream";
+            if (u.includes("identitytoolkit")) return "authentication";
+            if (u.includes("firebase")) return "firebase";
+            if (u.includes("mixpanel")) return "analytics";
+            if (u.includes("sentry")) return "error-reporting";
+            if (u.includes("/rail/")) return "content";
+            if (u.includes("_rsc")) return "nextjs";
+            if (u.includes("google-analytics")) return "analytics";
+
+            return "other";
+          }
+
+          async function main() {
+            console.log("Opening:", TARGET);
+
+            const browser = await chromium.launch({
+              headless: true
+            });
+
+            const context = await browser.newContext();
+
+            const page = await context.newPage();
+
+            const requests = [];
+            const responses = [];
+            const failures = [];
+
+            page.on("request", request => {
+              const type = request.resourceType();
+
+              if (type !== "xhr" && type !== "fetch") {
+                return;
+              }
+
+              const item = {
+                timestamp: new Date().toISOString(),
+                type,
+                category: classify(request.url()),
+                method: request.method(),
+                url: request.url(),
+                headers: sanitizeHeaders(request.headers()),
+                body: safeBody(request.postData())
+              };
+
+              requests.push(item);
+
+              console.log(
+                `[REQUEST] ${item.method} ${item.category} ${item.url}`
+              );
+            });
+
+            page.on("response", async response => {
+              const request = response.request();
+              const type = request.resourceType();
+
+              if (type !== "xhr" && type !== "fetch") {
+                return;
+              }
+
+              let body = null;
+
+              try {
+                const contentType =
+                  response.headers()["content-type"] || "";
+
+                if (
+                  contentType.includes("application/json") ||
+                  contentType.includes("text/plain")
+                ) {
+                  body = await response.text();
+
+                  if (
+                    /authorization|access_token|refresh_token|password|secret/i
+                      .test(body)
+                  ) {
+                    body =
+                      "[RESPONSE REDACTED: POSSIBLE CREDENTIAL]";
+                  } else {
+                    body = body.slice(0, 30000);
+                  }
+                }
+              } catch (e) {
+                body = "[Unable to read response body]";
+              }
+
+              const item = {
+                timestamp: new Date().toISOString(),
+                category: classify(response.url()),
+                status: response.status(),
+                statusText: response.statusText(),
+                url: response.url(),
+                contentType:
+                  response.headers()["content-type"] || "",
+                headers: sanitizeHeaders(response.headers()),
+                body
+              };
+
+              responses.push(item);
+
+              console.log(
+                `[RESPONSE] ${item.status} ${item.category} ${item.url}`
+              );
+            });
+
+            page.on("requestfailed", request => {
+              const item = {
+                timestamp: new Date().toISOString(),
+                method: request.method(),
+                url: request.url(),
+                failure: request.failure()?.errorText || "Unknown"
+              };
+
+              failures.push(item);
+
+              console.log(
+                `[FAILED] ${item.method} ${item.url} ${item.failure}`
+              );
+            });
+
+            try {
+              await page.goto(TARGET, {
+                waitUntil: "domcontentloaded",
+                timeout: 30000
+              });
+            } catch (error) {
+              console.log("PAGE ERROR:", error.message);
+            }
+
+            // Allow client-side requests to complete.
+            await page.waitForTimeout(15000);
+
+            /*
+             * Save general network information.
+             */
+            fs.writeFileSync(
+              `${OUT}/requests.json`,
+              JSON.stringify(requests, null, 2)
+            );
+
+            fs.writeFileSync(
+              `${OUT}/responses.json`,
+              JSON.stringify(responses, null, 2)
+            );
+
+            fs.writeFileSync(
+              `${OUT}/failed.json`,
+              JSON.stringify(failures, null, 2)
+            );
+
+            /*
+             * Extract useful high-level information.
+             */
+            const playback = responses.filter(
+              x => x.category === "playback"
+            );
+
+            const streams = responses.filter(
+              x => x.category === "stream"
+            );
+
+            const content = responses.filter(
+              x => x.category === "content"
+            );
+
+            const auth = responses.filter(
+              x => x.category === "authentication"
+            );
+
+            const summary = {
+              target: TARGET,
+              capturedAt: new Date().toISOString(),
+
+              totals: {
+                requests: requests.length,
+                responses: responses.length,
+                failures: failures.length
+              },
+
+              categories: {
+                playback: playback.length,
+                stream: streams.length,
+                content: content.length,
+                authentication: auth.length
+              },
+
+              playbackEndpoints: playback.map(x => ({
+                method: requests.find(r => r.url === x.url)?.method || "UNKNOWN",
+                url: x.url,
+                status: x.status,
+                contentType: x.contentType
+              })),
+
+              streamEndpoints: streams.map(x => ({
+                url: x.url,
+                status: x.status,
+                contentType: x.contentType
+              })),
+
+              contentEndpoints: content.map(x => ({
+                url: x.url,
+                status: x.status,
+                contentType: x.contentType
+              }))
+            };
+
+            fs.writeFileSync(
+              `${OUT}/summary.json`,
+              JSON.stringify(summary, null, 2)
+            );
+
+            /*
+             * Human-readable API map.
+             */
+            let md = "# API Flow Report\n\n";
+
+            md += `Target: \`${TARGET}\`\n\n`;
+
+            md += "## Overview\n\n";
+            md += `- Requests: ${requests.length}\n`;
+            md += `- Responses: ${responses.length}\n`;
+            md += `- Failed requests: ${failures.length}\n\n`;
+
+            md += "## Categories\n\n";
+            md += `- Playback: ${playback.length}\n`;
+            md += `- Stream: ${streams.length}\n`;
+            md += `- Content: ${content.length}\n`;
+            md += `- Authentication: ${auth.length}\n\n`;
+
+            md += "## Playback endpoints\n\n";
+
+            if (playback.length === 0) {
+              md += "No playback response was captured.\n\n";
+            } else {
+              for (const item of playback) {
+                md += `### ${item.status} ${item.url}\n\n`;
+                md += `Content-Type: ${item.contentType || "unknown"}\n\n`;
+              }
+            }
+
+            md += "## Stream requests\n\n";
+
+            if (streams.length === 0) {
+              md += "No stream request was captured.\n\n";
+            } else {
+              for (const item of streams) {
+                md += `- ${item.status} — ${item.url}\n`;
+              }
+              md += "\n";
+            }
+
+            md += "## Content endpoints\n\n";
+
+            for (const item of content) {
+              md += `- ${item.status} — ${item.url}\n`;
+            }
+
+            md += "\n## Security\n\n";
+            md += "- Authorization headers are redacted.\n";
+            md += "- Cookies are redacted.\n";
+            md += "- Possible credential-containing bodies are redacted.\n";
+            md += "- This report does not attempt to bypass authentication or entitlement.\n";
+
+            fs.writeFileSync(
+              `${OUT}/api-map.md`,
+              md
+            );
+
+            /*
+             * Console summary.
+             */
+            console.log("");
+            console.log("=================================");
+            console.log("CAPTURE COMPLETE");
+            console.log("=================================");
+            console.log("Requests:", requests.length);
+            console.log("Responses:", responses.length);
+            console.log("Failures:", failures.length);
+            console.log("Playback:", playback.length);
+            console.log("Stream:", streams.length);
+            console.log("Content:", content.length);
+            console.log("Authentication:", auth.length);
+            console.log("=================================");
+
+            await browser.close();
+          }
+
+          main().catch(error => {
+            console.error(error);
+            process.exit(1);
+          });
+          EOF
+
+      - name: Run capture
+        run: node capture.js
+
+      - name: Show report
+        run: |
+          echo "===== API MAP ====="
+          cat debug/api-map.md
+
+          echo ""
+          echo "===== SUMMARY ====="
+          cat debug/summary.json
+
+      - name: Commit debug output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add debug/
+
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+            exit 0
+          fi
+
+          git commit -m "Update API flow debug report"
+          git push
